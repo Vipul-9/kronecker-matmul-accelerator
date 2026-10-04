@@ -33,11 +33,14 @@ A row = [4 -1 -2 3]          B = [-3  2  6; -5 -3  2; 6 -5 -3; 2  6 -5]
 Y row = [-13 39 13]
 ```
 
+Both outputs match a hand-computed reference. For example, row 1 of Y is −13 = 4·(−3) + (−1)·(−5) + (−2)·6 + 3·2. The full simulation logs are in [`results/`](results/).
+
 ## Repository structure
 ```
 src/   multiplier.v, white_box.v, grey_box.v, full_adder.v,
        kronecker_product.v, matrix_multiplication.v
 tb/    kronecker_product_tb.v, matrix_multiplication_tb.v
+results/  simulation logs for both testbenches
 ```
 
 ## How to implement
