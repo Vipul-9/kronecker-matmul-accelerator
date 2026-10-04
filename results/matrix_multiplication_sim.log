@@ -1,0 +1,18 @@
+Matrix A:
+4	-1	-2	3	
+4	-1	-2	3	
+4	-1	-2	3	
+4	-1	-2	3	
+
+Matrix B:
+-3	2	6	
+-5	-3	2	
+6	-5	-3	
+2	6	-5	
+
+Matrix Y (Result):
+-13	39	13	
+-13	39	13	
+-13	39	13	
+-13	39	13	
+tb/matrix_multiplication_tb.v:72: $finish called at 60000 (1ps)
