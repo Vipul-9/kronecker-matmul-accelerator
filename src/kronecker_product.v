@@ -20,7 +20,7 @@ module kronecker_product #(parameter N1 = 2, N2 = 2, M1 = 2, M2 = 2) (
                         // Calculate the appropriate index for the Product
                         localparam integer product_index = ((i * M1 + k) * (N2 * M2) + (j * M2 + l)) * 16;
 
-                        // Instantiate the multiplier2 module for each element in the Kronecker product
+                        // Instantiate a multiplier1 (8x8 Baugh-Wooley) module for each element in the Kronecker product
                         multiplier1 m (
                             .a(A_elem),                          // Element from matrix A
                             .b(B_elem),                          // Element from matrix B
